@@ -1,0 +1,20 @@
+.no-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-page > div {
+    width: 100%;
+    padding: 30px 150px;
+    text-align: left;
+    background-color: violet;
+}
+ .no-page >.not-found-text {
+    color: red;
+}
+
+.no-page > .brands-img {
+    margin: 100px 0;
+}
