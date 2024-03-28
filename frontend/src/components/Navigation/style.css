@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    padding: 15px 20px;
+  }
+  
+  .navbar .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s ease;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .navbar .nav-links li:not(:last-child)::after {
+    content: "|";
+    /* Add a pipe after each list item except for the last one */
+    margin-left: 10px;
+    /* Add spacing after the pipe */
+  }
+  
+  .navbar .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar .nav-links li:hover {
+    color: red;
+    /* Change to desired hover color */
+  }
+  
+  
+  
+  
+  
+  .navbar .profile,
+  .navbar .wishlist {
+    margin-right: 10px;
+  }
+  
+  .logoleft {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .navbar .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+   .navbar .right-section .divider {
+    margin: 0 5px; /* Adjust spacing around the dividers */
+    color: black; /* Set color for the dividers */
+  }
+  
+  .navbar .right-section .wishlist a {
+    margin-left: 11.7px;
+  }
+  .navbar .right-section .likee a {
+    margin-left: 11.7px;
+  }
